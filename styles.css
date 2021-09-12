@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+#footer {
+  text-align: center;
+  font-family: monospace;
+  font-size: 15px;
+}
+
 #container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,6 +45,7 @@
   border-radius: 15px 15px 0 0;
   -webkit-box-shadow: 0px 5px 10px #474747;
           box-shadow: 0px 5px 10px #474747;
+  font-family: 'Codystar', monospace;
   z-index: 1;
 }
 
@@ -173,10 +180,11 @@
 }
 
 .label {
-  font-size: 12px;
+  font-size: 15px;
   padding-top: 10px;
   margin: 0px;
   text-align: center;
+  font-family: monospace;
 }
 
 #power {

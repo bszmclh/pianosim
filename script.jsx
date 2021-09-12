@@ -167,7 +167,7 @@ class App extends React.Component {
         }
         return (
             <div id='drum-machine'>
-            <h1 id='title'>PIANO</h1>
+            <h1 id='title'>SIMPLE PIANO Ver1.0</h1>
             <div id='cover'>
             <div id='power'>
             <p className='label'>POWER</p>
@@ -242,7 +242,7 @@ class App extends React.Component {
                 </div>
             </div>
 
-
+            <p id="footer"> by bszmclh </p>
             </div>
         )
     }
